@@ -1,3 +1,5 @@
+/* configurações gerais */
+
 #interesses img {
   width: 50px;
   height: 50px;
@@ -7,10 +9,45 @@ footer .imageFooter {
   width: 50px;
   height: 50px;
 }
-#contatos,
-nav .menu {
-  background: #21a3a3;
+
+footer,
+nav .menu,
+#contatos {
+  background: #464d70;
   padding: 1rem;
+}
+
+#sobreMim,
+#formacao,
+#experiencias,
+#habilidades,
+#interesses {
+  background-color: #171d27;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sobreMim p,
+#formacao div,
+#experiencias div,
+#habilidades ul,
+#interesses div {
+  background-color: #464d70;
+  border-radius: 25px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: #171d27;
+}
+
+#sobreMim h3,
+#formacao h3,
+#experiencias h3,
+#habilidades h3,
+#interesses h3 {
+  margin-bottom: 0.3rem;
 }
 
 /* ---- menu ---- */
@@ -31,6 +68,7 @@ nav .menu li {
 nav .menu li a {
   text-decoration: none;
   font-size: 1.7rem;
+  color: #171d27;
 }
 
 nav .menu li a:hover {
@@ -46,6 +84,7 @@ nav .menu li a:hover {
   align-items: center;
   padding: 1rem;
   padding-top: 4rem;
+  color: #171d27;
 }
 
 #contatos img {
@@ -57,6 +96,11 @@ nav .menu li a:hover {
 #contatos h2 {
   font-size: 2rem;
   margin-bottom: 0.2rem;
+  color: #171d27;
+}
+
+#contatos span {
+  color: #171d27;
 }
 
 #contatos .avatar {
@@ -82,6 +126,7 @@ nav .menu li a:hover {
 
 .contato div img {
   margin-right: 0.3rem;
+  background-color: #171d27;
 }
 
 .contato div p {
@@ -97,4 +142,44 @@ nav .menu li a:hover {
 
 .redes img {
   margin: 0.5rem;
+}
+
+/* ---- sobre mim ---- */
+
+/* ---- habilidades ---- */
+#habilidades div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#habilidades div ul {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#habilidades div ul span {
+  font-size: 1.4rem;
+  color: #7375a5;
+}
+
+#habilidades div ul li {
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+/* ---- interesses ---- */
+#interesses div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#interesses div img {
+  margin: 1rem;
 }
