@@ -7,7 +7,7 @@
 
 footer,
 nav .menu,
-#contatos, 
+#contatos,
 .hamburguer {
   background: #464d70;
   padding: 1rem;
@@ -200,19 +200,50 @@ footer .imageFooter {
 
 /* ------ menu responsivo ----- */
 @media (max-width: 960px) {
-  nav .hidden {
-    display: none;
+  nav .hamburguer {
+    top: 1rem;
+    left: 1rem;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 50px;
+    cursor: pointer;
+    z-index: 2;
   }
 
-  nav .hamburguer {
+  nav .hamburguer::before,
+  nav .hamburguer::after,
+  nav .hamburguer div {
+    background: #6cf3d5;
+    content: "";
+    display: block;
+    width: 1.2rem;
+    height: 0.1rem;
+    border-radius: 3px;
+    margin: 7px 0;
+    transition: 0.5s;
+  }
+
+  nav .hamburguer:hover:before {
+    transform: translateY(12px) rotate(135deg);
+  }
+  nav .hamburguer:hover:after {
+    transform: translateY(-12px) rotate(-135deg);
+  }
+  nav .hamburguer:hover div {
+    transform: scale(0);
+  }
+
+  nav .menu {
     display: flex;
     flex-direction: column;
+    margin-left: 2rem;
   }
 
-  nav .line {
-    background-color: red;
-    width: 1rem;
-    height: 0.1rem;
-    margin: 0.2rem;
+  nav ul li {
+    margin: 0.5rem;
+  }
+
+  nav .hidden {
+    display: none;
   }
 }
