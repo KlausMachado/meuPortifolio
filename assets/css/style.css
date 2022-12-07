@@ -204,7 +204,7 @@ footer .imageFooter {
     top: 1rem;
     left: 1rem;
     transform: translate(-50%, -50%);
-    position: absolute;
+    position: fixed;
     width: 50px;
     cursor: pointer;
     z-index: 2;

@@ -7,5 +7,3 @@ hamburguer.addEventListener("click", () => {
     menu.classList.add("hidden");
   }
 });
-
-// console.log(hamburguer)
