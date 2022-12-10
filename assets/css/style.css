@@ -134,7 +134,11 @@ nav .menu li a:hover {
   margin: 0.5rem;
 }
 
-/* ---- sobre mim ---- */
+/* ---- experiencia ---- */
+#experiencias a {
+  text-decoration: none;
+  color: #7375a5;
+}
 
 /* ---- habilidades ---- */
 #habilidades div {

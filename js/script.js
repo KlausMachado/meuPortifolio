@@ -11,23 +11,25 @@ hamburguer.addEventListener("click", () => {
 const interest = document.querySelectorAll(".interest");
 interest.forEach((props) => {
   props.addEventListener("click", () => {
-    const div = document.querySelector(".textInterest");
-    const p = div.children;
+    const p = document.querySelectorAll(".textInterestItem");
     const img = props.classList;
+    p.forEach((item) => {
+      item.classList.add("hidden");
+    });
     if (img.contains("series")) {
-      console.log(p[0]);
+      p[0].classList.remove("hidden");
     }
     if (img.contains("animes")) {
-      console.log(p[1]);
+      p[1].classList.remove("hidden");
     }
     if (img.contains("viajens")) {
-      console.log(p[2]);
+      p[2].classList.remove("hidden");
     }
     if (img.contains("games")) {
-      console.log(p[3]);
+      p[3].classList.remove("hidden");
     }
     if (img.contains("pets")) {
-      console.log(p[4]);
+      p[4].classList.remove("hidden");
     }
   });
 });
