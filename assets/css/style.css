@@ -1,17 +1,16 @@
 /* configurações gerais */
 footer,
 nav .menu,
-#contatos,
-.hamburguer {
+#contactInfo {
   background: #464d70;
   padding: 1rem;
 }
 
-#sobreMim,
-#formacao,
-#experiencias,
-#habilidades,
-#interesses {
+#about,
+#education,
+#experience,
+#skills,
+#interests {
   background-color: #171d27;
   color: white;
   padding: 2rem;
@@ -20,11 +19,11 @@ nav .menu,
   align-items: center;
 }
 
-#sobreMim p,
-#formacao div,
-#experiencias div,
-#habilidades ul,
-#interesses div {
+#about p,
+#education div,
+#experience div,
+#skills ul,
+#interests div {
   background-color: #464d70;
   border-radius: 25px;
   padding: 1rem;
@@ -32,11 +31,11 @@ nav .menu,
   color: #171d27;
 }
 
-#sobreMim h3,
-#formacao h3,
-#experiencias h3,
-#habilidades h3,
-#interesses h3 {
+#about h3,
+#education h3,
+#experience h3,
+#skills h3,
+#interests h3 {
   margin-bottom: 0.3rem;
 }
 
@@ -65,9 +64,9 @@ nav .menu li a:hover {
   color: #7375a5;
 }
 
-/* ---- contatos ---- */
+/* ---- contacts ---- */
 
-#contatos {
+#contactInfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,30 +76,30 @@ nav .menu li a:hover {
   color: #171d27;
 }
 
-#contatos img {
+#contactInfo img {
   width: 1.7rem;
   height: 1.7rem;
   border-radius: 50%;
 }
 
-#contatos h2 {
+#contactInfo h2 {
   font-size: 2rem;
   margin-bottom: 0.2rem;
   color: #171d27;
 }
 
-#contatos span {
+#contactInfo span {
   color: #171d27;
 }
 
-#contatos .avatar {
+#contactInfo .avatar {
   width: 9.375rem;
   height: 9.375rem;
   border-radius: 50%;
   margin: 1rem;
 }
 
-.contato {
+.contact {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -109,46 +108,46 @@ nav .menu li a:hover {
   margin-top: 1rem;
 }
 
-.contato div {
+.contact div {
   display: flex;
   margin: 1rem;
 }
 
-.contato div img {
+.contact div img {
   margin-right: 0.3rem;
   background-color: #171d27;
 }
 
-.contato div p {
+.contact div p {
   font-size: 1.5rem;
 }
 
-.redes {
+.socialNetworks {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1rem;
 }
 
-.redes img {
+.socialNetworks img {
   margin: 0.5rem;
 }
 
 /* ---- experiencia ---- */
-#experiencias a {
+#experience a {
   text-decoration: none;
   color: #7375a5;
 }
 
-/* ---- habilidades ---- */
-#habilidades div {
+/* ---- skills ---- */
+#skills div {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-#habilidades div ul {
+#skills div ul {
   margin-left: 1rem;
   margin-right: 1rem;
   list-style: none;
@@ -158,35 +157,35 @@ nav .menu li a:hover {
   justify-content: center;
 }
 
-#habilidades div ul span {
+#skills div ul span {
   font-size: 1.4rem;
   color: #7375a5;
 }
 
-#habilidades div ul li {
+#skills div ul li {
   padding: 0.5rem 0.5rem 0rem 0.5rem;
 }
 
-/* ---- interesses ---- */
-#interesses div {
+/* ---- interests ---- */
+#interests div {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-#interesses div img {
+#interests div img {
   margin: 1rem;
   width: 50px;
   height: 50px;
   cursor: pointer;
 }
 
-#interesses div img:hover {
+#interests div img:hover {
   transform: rotate(1turn);
   transition: ease 1s;
 }
 
-#interesses div.textInterest p.hidden {
+#interests div.textInterest p.hidden {
   display: none;
 }
 
@@ -211,6 +210,9 @@ footer .imageFooter {
 /* ------ menu responsivo ----- */
 @media (max-width: 960px) {
   nav .hamburguer {
+    background: #464d70;
+    padding: 0.2rem 0.5rem 0.2rem 0.7rem;
+    border-radius: 0 0 10px 0;
     top: 1rem;
     left: 1rem;
     transform: translate(-50%, -50%);
