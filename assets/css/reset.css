@@ -7,3 +7,9 @@
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 1.2rem;
 }
+
+/* variaveis */
+:root {
+  --bg-primary: linear-gradient(-135deg,#43cbff 0%, #9708cc 100%);
+  --white : #FFFFFF;
+}
