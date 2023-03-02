@@ -2,7 +2,7 @@
 footer,
 nav .menu,
 #contactInfo {
-  background: #464d70;
+  background: #ac43f7;
   padding: 1rem;
 }
 
@@ -11,7 +11,7 @@ nav .menu,
 #experience,
 #skills,
 #interests {
-  background-color: #171d27;
+  background-color: #181818;
   color: white;
   padding: 2rem;
   display: flex;
@@ -24,11 +24,11 @@ nav .menu,
 #experience div,
 #skills ul,
 #interests div {
-  background-color: #464d70;
+  background-color: #ac43f7;
   border-radius: 25px;
   padding: 1rem;
   margin-bottom: 1rem;
-  color: #171d27;
+  color: #181818;
 }
 
 #about h3,
@@ -57,11 +57,11 @@ nav .menu li {
 nav .menu li a {
   text-decoration: none;
   font-size: 1.7rem;
-  color: #171d27;
+  color: #181818;
 }
 
 nav .menu li a:hover {
-  color: #7375a5;
+  color: #FFFFFF;
 }
 
 /* ---- contacts ---- */
@@ -73,7 +73,7 @@ nav .menu li a:hover {
   align-items: center;
   padding: 1rem;
   padding-top: 4rem;
-  color: #171d27;
+  color: #181818;
 }
 
 #contactInfo img {
@@ -85,11 +85,11 @@ nav .menu li a:hover {
 #contactInfo h2 {
   font-size: 2rem;
   margin-bottom: 0.2rem;
-  color: #171d27;
+  color: #181818;
 }
 
 #contactInfo span {
-  color: #171d27;
+  color: #181818;
 }
 
 #contactInfo .avatar {
@@ -115,7 +115,7 @@ nav .menu li a:hover {
 
 .contact div img {
   margin-right: 0.3rem;
-  background-color: #171d27;
+  background-color: #181818;
 }
 
 .contact div p {
@@ -136,7 +136,7 @@ nav .menu li a:hover {
 /* ---- experiencia ---- */
 #experience a {
   text-decoration: none;
-  color: #7375a5;
+  color: #FFFFFF;
 }
 
 /* ---- skills ---- */
@@ -159,7 +159,7 @@ nav .menu li a:hover {
 
 #skills div ul span {
   font-size: 1.4rem;
-  color: #7375a5;
+  color: #FFFFFF;
 }
 
 #skills div ul li {
@@ -199,7 +199,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #7375a5;
+  color: #FFFFFF;
 }
 
 footer .imageFooter {
@@ -210,7 +210,7 @@ footer .imageFooter {
 /* ------ menu responsivo ----- */
 @media (max-width: 960px) {
   nav .hamburguer {
-    background: #464d70;
+    background: #ac43f7;
     padding: 0.2rem 0.5rem 0.2rem 0.7rem;
     border-radius: 0 0 10px 0;
     top: 1rem;
