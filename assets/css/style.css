@@ -5,7 +5,7 @@
 footer,
 nav .menu,
 #contactInfo {
-  background: var(--bg-primary);
+  background: var(--color-primary);
   padding: 1rem;
 }
 
@@ -14,7 +14,7 @@ nav .menu,
 #experience,
 #skills,
 #interests {
-  background-color: #181818;
+  background-color:var(--color-primary);
   color: var(--white);
   padding: 2rem;
   display: flex;
@@ -27,11 +27,11 @@ nav .menu,
 #experience div,
 #skills ul,
 #interests div {
-  background: var(--bg-primary);
+  background: var(--color-secondary);
   border-radius: 25px;
   padding: 1rem;
   margin-bottom: 1rem;
-  color: #181818;
+  color: black;
 }
 
 #about h3,
@@ -60,7 +60,7 @@ nav .menu li {
 nav .menu li a {
   text-decoration: none;
   font-size: 1.7rem;
-  color: #181818;
+  color: black;
 }
 
 nav .menu li a:hover {
@@ -76,7 +76,7 @@ nav .menu li a:hover {
   align-items: center;
   padding: 1rem;
   padding-top: 4rem;
-  color: #181818;
+  color: black;
 }
 
 #contactInfo img {
@@ -88,11 +88,11 @@ nav .menu li a:hover {
 #contactInfo h2 {
   font-size: 2rem;
   margin-bottom: 0.2rem;
-  color: #181818;
+  color:black;
 }
 
 #contactInfo span {
-  color: #181818;
+  color:black;
 }
 
 #contactInfo .avatar {
@@ -118,7 +118,7 @@ nav .menu li a:hover {
 
 .contact div img {
   margin-right: 0.3rem;
-  background-color: #181818;
+  background-color:var(--color-secondary);
 }
 
 .contact div p {
@@ -181,6 +181,7 @@ nav .menu li a:hover {
   width: 50px;
   height: 50px;
   cursor: pointer;
+  color: aliceblue;
 }
 
 #interests div img:hover {
@@ -213,7 +214,7 @@ footer .imageFooter {
 /* ------ menu responsivo ----- */
 @media (max-width: 960px) {
   nav .hamburguer {
-    background: var(--bg-primary);
+    background: var(--color-secondary);
     padding: 0.2rem 0.5rem 0.2rem 0.7rem;
     border-radius: 0 0 10px 0;
     top: 1rem;
