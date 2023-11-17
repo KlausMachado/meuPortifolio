@@ -10,6 +10,8 @@
 
 /* variaveis */
 :root {
-  --bg-primary: linear-gradient(-135deg,#43cbff 0%, #9708cc 100%);
+  --blue-secondary:  linear-gradient(262deg, rgba(0,91,197,1) 0%, rgba(0,180,252,1) 62%, rgba(23,249,255,1) 100%);
   --white : #FFFFFF;
+  --black : #181818;
+  --hover : #00b4fc;
 }
