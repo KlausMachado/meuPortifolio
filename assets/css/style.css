@@ -4,10 +4,11 @@
 body {
   background: var(--blue-secondary);
 }
+
+
 footer,
 nav .menu,
 #contactInfo {
-  background: var(--bg-primary);
   padding: 1rem;
 }
 
@@ -18,7 +19,7 @@ nav .menu,
 #experience,
 #skills,
 #interests {
-  background-color: #181818;
+  /* background-color: #181818; */
   color: var(--white);
   padding: 2rem;
   display: flex;
@@ -31,7 +32,7 @@ nav .menu,
 #experience div,
 #skills ul,
 #interests div {
-  background: var(--bg-primary);
+  background: var(--white);
   border-radius: 25px;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -48,6 +49,8 @@ nav .menu,
 
 /* ---- menu ---- */
 nav .menu {
+  background: linear-gradient(262deg, rgba(0,91,197,1) 0%, rgba(0,180,252,1) 16%, rgba(23,249,255,1) 100%);;
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -207,7 +210,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: var(--hover);
+  color: var(--white);
 }
 
 footer .imageFooter {
@@ -218,7 +221,7 @@ footer .imageFooter {
 /* ------ menu responsivo ----- */
 @media (max-width: 960px) {
   nav .hamburguer {
-    background: var(--bg-primary);
+    background: var(--white);
     padding: 0.2rem 0.5rem 0.2rem 0.7rem;
     border-radius: 0 0 10px 0;
     top: 1rem;
