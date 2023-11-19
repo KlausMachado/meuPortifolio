@@ -19,7 +19,7 @@ nav .menu,
 #experience,
 #skills,
 #interests {
-  /* background-color: #181818; */
+  /* background-color: var(--black); */
   color: var(--white);
   padding: 2rem;
   display: flex;
@@ -36,7 +36,7 @@ nav .menu,
   border-radius: 25px;
   padding: 1rem;
   margin-bottom: 1rem;
-  color: #181818;
+  color: var(--black);
 }
 
 #about h3,
@@ -67,7 +67,7 @@ nav .menu li {
 nav .menu li a {
   text-decoration: none;
   font-size: 1.7rem;
-  color: #181818;
+  color: var(--black);
 }
 
 nav .menu li a:hover {
@@ -83,7 +83,7 @@ nav .menu li a:hover {
   align-items: center;
   padding: 1rem;
   padding-top: 4rem;
-  color: #181818;
+  color: var(--black);
 }
 
 #contactInfo img {
@@ -95,11 +95,11 @@ nav .menu li a:hover {
 #contactInfo h2 {
   font-size: 2rem;
   margin-bottom: 0.2rem;
-  color: #181818;
+  color: var(--black);
 }
 
 #contactInfo span {
-  color: #181818;
+  color: var(--black);
 }
 
 #contactInfo .avatar {
@@ -125,7 +125,7 @@ nav .menu li a:hover {
 
 .contact div img {
   margin-right: 0.3rem;
-  background-color: #181818;
+  background-color: var(--black);
 }
 
 .contact div p {
